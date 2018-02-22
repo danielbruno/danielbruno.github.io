@@ -26,7 +26,7 @@ On my spare time, I like to play video game, specifically Playstation 4, where I
 * **AWS License ID:** WSQFF441L1FEQLKE
 
 ### Resumé
-* [Download](daniel-amzn.s3.amazonaws.com/DanielBruno.pdf)
+* [Download](https://daniel-amzn.s3.amazonaws.com/DanielBruno.pdf)
 
 ### Disclaimer
 Opinions expressed on this blog are solely my own, and do not reflects the views and opinions of my employer.
