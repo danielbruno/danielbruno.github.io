@@ -1,0 +1,12 @@
+{
+     "name": "Tipue Search",
+     "main": [
+          "tipuesearch/tipuesearch.js",
+          "tipuesearch/tipuesearch_set.js",
+          "tipuesearch/css/tipuesearch.css"
+     ],
+     "dependencies":
+     {
+          "jquery": "~2.2.3"
+     }
+}
