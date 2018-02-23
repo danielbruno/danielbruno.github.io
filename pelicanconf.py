@@ -27,8 +27,8 @@ TIMEZONE = 'Africa/Johannesburg'
 DEFAULT_LANG = u'en'
 OG_LOCALE = u'en_US'
 
-SITELOGO = u'/img/danielbruno-profile.png'
-FAVICON = u'/img/favicon.ico'
+SITELOGO = u'/theme/img/danielbruno-profile.png'
+FAVICON = u'/theme/img/favicon.ico'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
