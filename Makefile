@@ -121,4 +121,8 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
+travis_ci: publish
+		ghp-import -m "Generate Blog site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+		git push -fq https://${GH_OA_TOKEN}@github.com/danielbruno/danielbruno.github.io.git $(GITHUB_PAGES_BRANCH)
+
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
