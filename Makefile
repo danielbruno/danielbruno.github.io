@@ -123,6 +123,6 @@ github: publish
 
 travis_ci: publish
 		ghp-import -m "Generate Blog site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-		git push https://$(GH_OA_TOKEN)@github.com/danielbruno/danielbruno.github.io.git $(GITHUB_PAGES_BRANCH)
+		git push -fq https://${GH_OA_TOKEN}@github.com/danielbruno/danielbruno.github.io.git $(GITHUB_PAGES_BRANCH) > /dev/null 2>&1
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
