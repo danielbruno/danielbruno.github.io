@@ -11,6 +11,7 @@ install:
 - pip install -r requirements.txt
 
 script:
+- echo OUATH $GH_OA_TOKEN
 - make publish travis_ci
 
 env:
