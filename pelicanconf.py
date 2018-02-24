@@ -27,8 +27,8 @@ TIMEZONE = 'Africa/Johannesburg'
 DEFAULT_LANG = u'en'
 OG_LOCALE = u'en_US'
 
-SITELOGO = u'/theme/img/danielbruno-avatar.png'
-FAVICON = u'/theme/img/favicon.ico'
+SITELOGO = u'/img/danielbruno-avatar.png'
+FAVICON = u'/img/favicon.ico'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -37,6 +37,12 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/danielbruno-avatar.png': {'path': 'img/danielbruno-avatar.png'},
+    'extra/favicon.ico': {'path': 'img/favicon.ico'},
+}
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
