@@ -27,7 +27,7 @@ TIMEZONE = 'Africa/Johannesburg'
 DEFAULT_LANG = u'en'
 OG_LOCALE = u'en_US'
 
-SITELOGO = u'/theme/img/danielbruno-profile.png'
+SITELOGO = u'/theme/img/danielbruno-avatar.png'
 FAVICON = u'/theme/img/favicon.ico'
 
 # Feed generation is usually not desired when developing
@@ -54,7 +54,7 @@ CC_LICENSE = {
 SOCIAL = (('github', 'https://github.com/danielbruno'),
           ('linkedin', 'https://linkedin.com/in/danielbrunos'),
           ('twitter', 'https://twitter.com/danielbrunos'),
-          ('instagram', 'https://instagram.com/danielbrunos'),)
+          ('rss', 'http://dbruno.org/feeds/all.atom.xml'),)
 
 DEFAULT_PAGINATION = 13
 
