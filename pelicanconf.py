@@ -38,6 +38,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+STATIC_PATHS = [
+    'extra',
+    'images',
+]
+
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/danielbruno-avatar.png': {'path': 'img/danielbruno-avatar.png'},
