@@ -101,17 +101,11 @@
       <h1><a href="{{ SITEURL }}">{{ SITETITLE }}</a></h1>
 
       {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
-      <!-- <form id="searchform" action="/search" onsubmit="return (this.elements['q'].value.length > 0)">
-        <p><input id="searchbox" type="text" name="q" size="12" placeholder="Search"></p>
-      </form>
-      <br> -->
-      <center>
       <form id="searchform" action="/search" onsubmit="return (this.elements['q'].value.length > 0)">
-          <input id="searchbox" type="text" name="q" size="12" placeholder="Search">
+      <input id="searchbox" type="text" name="q" size="12" placeholder="Search here!">
       </form>
-    </center>
-    <br>
-      <p>
+
+
       {% if pages or LINKS %}
       <nav>
         <ul class="list">
