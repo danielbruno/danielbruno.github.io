@@ -8,7 +8,7 @@ Summary: About me page
 
 Hi there, I am Daniel!
 
-I am a Systems Engineer working for [Amazon Web Services](htps://aws.amazon.com), in Cape Town South - Africa. I am from [Manaus](https://en.wikipedia.org/wiki/Manaus) - Brazil, and I moved to South Africa in September of 2016, and I am B.Sc. in Computer Science.
+I am a Systems Engineer working for [Amazon Web Services](htps://aws.amazon.com), in Vancouver, Canada. I am from [Manaus](https://en.wikipedia.org/wiki/Manaus) - Brazil, and I moved to South Africa in September of 2016 and then moved to Vancouver, also I am B.Sc. in Computer Science.
 
 I have being contributing to Open Source projects in the last 10 years, most of this time I was involved with [Fedora Project](https://fedoraproject.org/wiki/User:Dbruno), where I'm part of the Ambassadors and RPM Packagers groups.
 
